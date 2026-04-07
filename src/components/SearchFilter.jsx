@@ -29,9 +29,9 @@ const SearchFilter = ({ onSearch, onFilterChange }) => {
               id="search"
               value={searchTerm}
               onChange={handleSearchChange}
-              placeholder="Search by title..."
+              placeholder="Search by name..."
               className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              aria-label="Search todos by title"
+              aria-label="Search todos by name"
             />
             <svg
               className="absolute left-3 top-2.5 h-5 w-5 text-gray-400"

@@ -261,10 +261,35 @@ The application is fully responsive with:
 - Safari (latest)
 - Edge (latest)
 
+Bonus Features ✅
+CRUD Operations ✅
+
+✅ Create: Add new todos with a modal form
+
+Click "Create Todo" button on homepage
+Fill in title, description, and completion status
+Form validation for required fields
+Success notification after creation
+Todo list automatically refreshes
+
+
+✅ Update: Edit existing todos
+
+Click "Edit" button on todo detail page
+Modify title, description, or completion status
+Form pre-filled with current values
+Success notification after update
+
+
+✅ Delete: Remove todos with confirmation dialog
+
+Click "Delete" button on todo detail page
+Confirmation dialog to prevent accidental deletion
+Success notification and redirect to home after deletion
+
 ## Known Issues and Future Improvements
 
 ### Current Limitations
-1. CRUD operations (Create, Update, Delete) are implemented in the API utility but not yet connected to the UI
 2. No authentication system (marked as advanced feature)
 3. No real-time updates via WebSocket (marked as advanced feature)
 
@@ -289,10 +314,9 @@ The application is fully responsive with:
 
 ## Deployment
 
-### Recommended Platforms
+
+### Recommended Platform
 - **Netlify**: Zero-config deployment with continuous deployment
-- **Vercel**: Optimized for React applications
-- **PipeOps**: Container-based deployment
 
 ### Deployment Steps
 
@@ -320,7 +344,7 @@ VITE_API_BASE_URL=https://api.oluwasetemi.dev
 - ✅ Ready to add @Oluwasetemi as collaborator
 
 ### Deployment
-- Application is deployed to Vercel
+- Application is deployed to netlify: https://69908f1087f5c9934f1efc90--edy-todo.netlify.app
 - All features work in production environment
 
 ## Contributing
@@ -334,3 +358,6 @@ MIT License - This project was created as part of my frontend engineering assess
 ---
 
 **Built by Edikan Abikpa from scratch using React, Tailwind CSS, and modern web technologies**
+
+PLEASE THE ASSIGNMENT QUESTIONS USED "TITLE" FOR TODO BUT API SAID "NAME"
+ALSO ASSIGNMENT QUESTION SAID THE ENDPOINT IS "/TODOS" BUT API SAID "TASKS" SO PLEASE LET THE QUESTIONS ALWAYS TALLY WOTH THE API END POINT TO SAVE US FROM ERRORS AND HOURS FINDING WHAT WAS WRONG.

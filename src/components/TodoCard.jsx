@@ -11,7 +11,7 @@ const TodoCard = ({ todo }) => {
               to={`/todos/${todo.id}`}
               className="hover:text-blue-600 focus:outline-none focus:underline"
             >
-              {todo.title}
+              {todo.name}
             </Link>
           </h3>
           
@@ -58,7 +58,7 @@ const TodoCard = ({ todo }) => {
         <Link
           to={`/todos/${todo.id}`}
           className="ml-4 text-blue-600 hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded p-1"
-          aria-label={`View details for ${todo.title}`}
+          aria-label={`View details for ${todo.name}`}
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
